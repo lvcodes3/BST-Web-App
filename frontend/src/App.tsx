@@ -30,12 +30,12 @@ function App() {
     <div className="App">
       <Header />
       <div className="d-flex">
-        <div className="col-3 border d-flex flex-column">
+        <div className="col-3 d-flex flex-column">
           <InsertTreeNode setBST={setBST} />
           <DeleteTreeNode setBST={setBST} />
           <SearchTreeNode />
         </div>
-        <div className="col-9 border">
+        <div className="col-9">
           <BinarySearchTree bst={bst} />
         </div>
       </div>

@@ -37,7 +37,7 @@ const BinarySearchTree: React.FC<BinarySearchTreeProps> = ({ bst }) => {
   return (
     <>
       {treeData.length > 0 ? (
-        <div style={{ width: "50em", height: "20em" }}>
+        <div style={{ width: "100%", height: "100%" }}>
           <Tree data={treeData} orientation="vertical" />
         </div>
       ) : (
